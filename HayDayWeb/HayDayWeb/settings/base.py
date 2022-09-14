@@ -90,7 +90,7 @@ WSGI_APPLICATION = 'HayDayWeb.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'heyday-db',
+        'NAME': 'heydaydb',
         'USER': 'postgres',
         'PASSWORD': "winslate",
         'HOST': 'localhost',
