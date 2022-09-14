@@ -29,7 +29,7 @@ DEBUG = True
 
 ALLOWED_HOSTS = ['*']
 FILE_UPLOAD_ALLOWED_EXTENSIONS = ['.JPEG', '.JPG', '.PNG', '.BMP',]
-
+gitlab_token = 'glpat-AifSGj7v2jmGz1-WDsyg'
 
 # Application definition
 

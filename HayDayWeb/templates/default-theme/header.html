@@ -13,10 +13,10 @@
         <nav id="navbar" class="navbar">
             <ul>
                 <li><a href="{% url 'home_page' %}" class="active">Home</a></li>
-                <li><a href="3">About</a></li>
-                <li><a href="#">Services</a></li>
-                <li><a href="#">Projects</a></li>
-                <li><a href="#">Blog</a></li>
+                <li><a href="{% url 'home_about_us' %}">About</a></li>
+                <li><a href="{% url 'home_services' %}">Services</a></li>
+                <li><a href="{% url 'home_projects' %}">Projects</a></li>
+                <li><a href="{% url 'home_blogs' %}">Blog</a></li>
                 <li class="dropdown"><a href="#"><span>Dropdown</span> <i
                             class="bi bi-chevron-down dropdown-indicator"></i></a>
                     <ul>
@@ -36,7 +36,7 @@
                         <li><a href="#">Dropdown 4</a></li>
                     </ul>
                 </li>
-                <li><a href="#">Contact</a></li>
+                <li><a href="{% url 'home_contact' %}">Contact</a></li>
             </ul>
         </nav><!-- .navbar -->
 
